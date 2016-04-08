@@ -1,0 +1,78 @@
+.icon-bullet{
+	display: inline-block;
+	padding-left: 1.75em;
+	position: relative;
+	
+	&--lg{
+		padding-left: 1.33333 * 1.75em;
+	}
+	
+	&--2x{
+		padding-left: 2 * 1.75em;
+	}
+	
+	&--3x{
+		padding-left: 3 * 1.75em;
+	}
+	
+	&--4x{
+		padding-left: 4 * 1.75em;
+	}
+	
+	&--5x{
+		padding-left: 5 * 1.75em;
+	}
+	
+	.fa{
+		position: absolute;
+		left: 0;
+		line-height: inherit;
+	}
+}
+.fa-bordered{
+	line-height: 1.28571429em !important;
+	height: 1.28571429em;
+	border-radius: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: inherit;
+	box-sizing: content-box;
+	
+	&.fa-lg{
+		padding: 5px;
+		vertical-align: baseline;
+	}
+	
+	&.fa-2x{
+		padding: 7px;
+		vertical-align: baseline;
+		border-width: 2px;
+		font-size: 1.5em;
+	}
+}
+.fa-boxed{
+	display: inline-block;
+	text-align: center;
+	line-height: 1.28571429em;
+	height: 1.28571429em;
+	min-width: 1.28571429em;
+	border-radius: 100%;
+	margin: 0 1px;
+	box-sizing: content-box;
+	padding: 5px;
+	position: relative;
+	
+	&.fa-block{
+		padding: 10px;
+	}
+	&[class*=ti-]{
+		line-height: 1.4
+	}
+}
+.fa-boxed::before{
+	color: inherit;
+}
+
+@import 'vc-recent-news';
+@import 'vc-text-separator';
+@import 'vc-services-carousel';

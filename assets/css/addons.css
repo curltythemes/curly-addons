@@ -1,0 +1,150 @@
+.icon-bullet {
+  display: inline-block;
+  padding-left: 1.75em;
+  position: relative; }
+  .icon-bullet--lg {
+    padding-left: 2.3333275em; }
+  .icon-bullet--2x {
+    padding-left: 3.5em; }
+  .icon-bullet--3x {
+    padding-left: 5.25em; }
+  .icon-bullet--4x {
+    padding-left: 7em; }
+  .icon-bullet--5x {
+    padding-left: 8.75em; }
+  .icon-bullet .fa {
+    position: absolute;
+    left: 0;
+    line-height: inherit; }
+
+.fa-bordered {
+  line-height: 1.28571429em !important;
+  height: 1.28571429em;
+  border-radius: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+  box-sizing: content-box; }
+  .fa-bordered.fa-lg {
+    padding: 5px;
+    vertical-align: baseline; }
+  .fa-bordered.fa-2x {
+    padding: 7px;
+    vertical-align: baseline;
+    border-width: 2px;
+    font-size: 1.5em; }
+
+.fa-boxed {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.28571429em;
+  height: 1.28571429em;
+  min-width: 1.28571429em;
+  border-radius: 100%;
+  margin: 0 1px;
+  box-sizing: content-box;
+  padding: 5px;
+  position: relative; }
+  .fa-boxed.fa-block {
+    padding: 10px; }
+  .fa-boxed[class*=ti-] {
+    line-height: 1.4; }
+
+.fa-boxed::before {
+  color: inherit; }
+
+.ct-vc-recent-news {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .ct-vc-recent-news-post {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center; }
+    .ct-vc-recent-news-post + .ct-vc-recent-news-post {
+      padding-top: 4rem; }
+    .ct-vc-recent-news-post .wp-post-image {
+      max-width: 6rem;
+      height: auto;
+      border-radius: 100%;
+      margin: 0 2rem 0 0;
+      flex-grow: 0;
+      flex-shrink: 0; }
+    .ct-vc-recent-news-post__excerpt {
+      width: 100%; }
+    .ct-vc-recent-news-post p {
+      margin-bottom: 0 !important;
+      margin-top: 2rem !important; }
+    .ct-vc-recent-news-post.has-post-thumbnail p {
+      clear: both; }
+    .ct-vc-recent-news-post__title {
+      font-size: 110%;
+      margin: 0 0 0.25rem 0 !important; }
+      .ct-vc-recent-news-post__title a {
+        text-decoration: none !important; }
+    .ct-vc-recent-news-post .ti-time {
+      font-size: 75%;
+      margin-right: 1rem; }
+    .ct-vc-recent-news-post__date + .ct-vc-recent-news-post__author {
+      margin-left: 0.7rem; }
+      .ct-vc-recent-news-post__date + .ct-vc-recent-news-post__author::before {
+        content: '';
+        display: inline-block;
+        margin-right: 1rem;
+        width: 0.6rem;
+        height: 0.6rem;
+        border-radius: 100%;
+        background-color: currentcolor;
+        position: relative;
+        bottom: 0.2rem;
+        opacity: 0.35; }
+    .ct-vc-recent-news-post__meta {
+      font-size: 90%; }
+
+.ct-vc-text-separator {
+  font-size: 18em;
+  line-height: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: 0.1;
+  letter-spacing: -0.05em;
+  display: block;
+  min-width: 100%;
+  text-align: center; }
+
+.ct-vc-services-carousel__item {
+  position: relative;
+  padding: 0 4vh 4vh; }
+  .ct-vc-services-carousel__item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: currentcolor;
+    opacity: 0.05;
+    border-radius: 2px;
+    z-index: -1; }
+.ct-vc-services-carousel__item-image {
+  display: block;
+  position: relative;
+  margin-left: -4vh;
+  width: calc( 100% + 8vh ); }
+  .ct-vc-services-carousel__item-image img {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px; }
+.ct-vc-services-carousel__item-title {
+  margin-bottom: 0vh !important; }
+.ct-vc-services-carousel__item-image + .ct-vc-services-carousel__item-title {
+  margin-top: 4vh !important; }
+.ct-vc-services-carousel .ct-vc-services-carousel__item a, .ct-vc-services-carousel .ct-vc-services-carousel__item a:hover {
+  color: inherit; }
+.ct-vc-services-carousel__item-title p {
+  margin-top: 2vh; }

@@ -1,0 +1,14 @@
+.ct-vc-text-separator{
+	font-size: 18em;
+	line-height: 1;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
+	opacity: 0.1;
+	letter-spacing: -0.05em;
+	display: block;
+	min-width: 100%;
+	text-align: center;
+
+}

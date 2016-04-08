@@ -1,0 +1,52 @@
+.ct-vc-services-carousel{
+	
+	&__item{
+		position: relative;
+		padding: 0 4vh 4vh;
+		
+		&::before{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background-color: currentcolor;
+			opacity: 0.05;
+			border-radius: 2px;
+			z-index: -1;
+		}
+	}
+	
+	&__item-image{
+		display: block;
+		position: relative;
+		margin-left: -4vh;
+		width: calc( 100% + 8vh );
+		
+		img{
+			border-top-left-radius: 2px;
+			border-top-right-radius: 2px;
+		}
+	}
+	
+	&__item-title{
+		margin-bottom: 0vh !important;
+	}
+	
+	&__item-image + &__item-title{
+		margin-top: 4vh !important;
+	}
+	
+	& &__item{
+		a, a:hover{
+			color: inherit;
+		}
+	}
+	
+	&__item-title p{
+		margin-top: 2vh;
+	}
+	
+}
